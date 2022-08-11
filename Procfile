@@ -1,1 +1,1 @@
-worker: python drop4.py
+worker: python main.py
