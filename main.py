@@ -3,7 +3,7 @@ import pygame
 import sys
 import math
 import os
-os.environ["SDL_VIDEODRIVER"] = "dummy"
+os.environ['SDL_VIDEODRIVER']='windlib'
 BLUE = (0,0,255)
 BLACK = (0,0,0)
 RED = (255,0,0)
