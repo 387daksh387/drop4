@@ -2,9 +2,9 @@ import numpy as np
 import pygame
 import sys
 import math
- try:
+try:
  	os.environ["DISPLAY"]
- except:
+except:
         os.environ["SDL_VIDEODRIVER"] = "dummy"
 BLUE = (0,0,255)
 BLACK = (0,0,0)
