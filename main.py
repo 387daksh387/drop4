@@ -2,6 +2,7 @@ import numpy as np
 import pygame
 import sys
 import math
+import os
 try:
  	os.environ["DISPLAY"]
 except:
