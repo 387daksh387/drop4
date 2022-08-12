@@ -2,8 +2,10 @@ import numpy as np
 import pygame
 import sys
 import math
-from pygame.locals import *
-pygame.init()
+ try:
+ 	os.environ["DISPLAY"]
+ except:
+        os.environ["SDL_VIDEODRIVER"] = "dummy"
 BLUE = (0,0,255)
 BLACK = (0,0,0)
 RED = (255,0,0)
